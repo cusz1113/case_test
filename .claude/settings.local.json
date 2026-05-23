@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(mineru)",
+      "Skill(mineru:*)",
+      "Bash(export MINERU_TOKEN=\"eyJ0eXBlIjoiSldUIiwiYWxnIjoiSFM1MTIifQ.eyJqdGkiOiI5MDAwMDA2NiIsInJvbCI6IlJPTEVfUkVHSVNURVIiLCJpc3MiOiJPcGVuWExhYiIsImlhdCI6MTc3OTUyODU4MywiY2xpZW50SWQiOiJsa3pkeDU3bnZ5MjJqa3BxOXgydyIsInBob25lIjoiMTM3MzE4MDgxMzUiLCJvcGVuSWQiOm51bGwsInV1aWQiOiJlMGViNTZlNS00MTc2LTQ0YWItYjM1NC1mOTA3NmQyMzcyZGUiLCJlbWFpbCI6IiIsImV4cCI6MTc4NzMwNDU4M30.VNd9scPx7Bjxfyfbamby_Trkn9uYvjt9jdGme4uQUeZVJeSlxE5CfWwayl5L7cVgMhhvduYIXIDfgl9q3OkXNA\")",
+      "Bash(mkdir -p \"c:/Users/cusz/OneDrive/桌面/case_test/output/电子商务项目二期/02_extracted\")",
+      "Bash(mkdir -p \"c:/Users/cusz/OneDrive/桌面/case_test/output/电子商务项目二期/03_requirements/01_第3章_新品牌运价业务需求分析/images\")",
+      "Bash(mkdir -p \"c:/Users/cusz/OneDrive/桌面/case_test/output/电子商务项目二期/03_requirements/02_第4章_常旅客直减功能需求分析/images\")",
+      "Bash(mkdir -p \"c:/Users/cusz/OneDrive/桌面/case_test/output/电子商务项目二期/03_requirements/03_第5章_Retailer功能需求分析/images\")",
+      "Bash(mkdir -p \"c:/Users/cusz/OneDrive/桌面/case_test/output/电子商务项目二期/03_requirements/04_第6章_里程UPSELL/images\")",
+      "Bash(mkdir -p \"c:/Users/cusz/OneDrive/桌面/case_test/output/电子商务项目二期/03_requirements/05_第7章_EMD/images\")",
+      "Bash(read f *)",
+      "Bash(cp output/电子商务项目二期/02_extracted/images/__TRACKED_VAR__ output/电子商务项目二期/03_requirements/03_第5章_Retailer功能需求分析/images/)",
+      "Bash(python -c ' *)",
+      "Bash(python fix_json.py)",
+      "Bash(python fix_json2.py)",
+      "Bash(python3 -c ' *)",
+      "Bash(python -c \"import os, json; files = ['output/电子商务项目二期/03_requirements/02_第4章_常旅客直减功能需求分析/requirements.json','output/电子商务项目二期/03_requirements/03_第5章_Retailer功能需求分析/requirements.json','output/电子商务项目二期/03_requirements/06_第8章_促销与增值服务产品库功能需求分析/requirements.json','output/电子商务项目二期/03_requirements/07_第9章_电子代金券功能需求分析/requirements.json']; [print\\(f'{os.path.basename\\(os.path.dirname\\(fp\\)\\)}: {os.path.getsize\\(fp\\)}B - {\\\\\"OK\\\\\" if \\(lambda: json.load\\(open\\(fp,encoding=\\\\\\\\\\\\\"utf-8\\\\\\\\\\\\\"\\)\\) or True\\)\\(\\) else \\\\\\\\\\\\\"\\\\\\\\\\\\\"}'\\) for fp in files if os.path.exists\\(fp\\)]\")",
+      "Bash(python c:/Users/cusz/OneDrive/桌面/case_test/check_json.py)",
+      "Bash(mkdir -p \"c:/Users/cusz/OneDrive/桌面/case_test/output/电子商务项目二期/05_testpoint_review/02_第4章_常旅客直减功能需求分析\")",
+      "Bash(python -c \"import openpyxl; print\\(f'openpyxl {openpyxl.__version__}'\\)\")",
+      "Bash(python \"c:/Users/cusz/OneDrive/桌面/case_test/generate_excel.py\")"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\cusz\\OneDrive\\桌面\\case_test\\output\\电子商务项目二期\\05_testpoint_review"
+    ]
+  }
+}
